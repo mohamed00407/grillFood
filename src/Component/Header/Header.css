@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  ul {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    li {
+      padding: 40px 30px;
+      /* color: var(--gradient-main-no-2); */
+      color: white;
+      background-color: black;
+    }
+  }
+  .menu li .link {
+    color: white;
+  }
+  .icons li {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --gradient-main-no-1: #fc4d26;
+  --gradient-main-no-2: #000000;
+  --gradient-main-no-3: #fec600;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
