@@ -1,12 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "tailwindcss";
+@plugin "daisyui";
 :root {
-  --gradient-main-no-1: #fc4d26;
+  --Main-Color: #fc4d26;
   --gradient-main-no-2: #000000;
-  --gradient-main-no-3: #fec600;
+  --Second-color: #fec600;
 }
 ul {
   list-style: none;

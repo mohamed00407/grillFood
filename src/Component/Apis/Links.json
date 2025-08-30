@@ -1,0 +1,22 @@
+{
+  "links": [
+    {
+      "To": "/"
+    },
+    {
+      "To": "/products"
+    },
+    {
+      "To": "/collections"
+    },
+    {
+      "To": "/snacks"
+    },
+    {
+      "To": "/blogs"
+    },
+    {
+      "To": "/contact"
+    }
+  ]
+}
