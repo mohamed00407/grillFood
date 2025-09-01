@@ -1,8 +1,14 @@
+import DealOfTheWeek from "../../Component/DealOfTheWeek/DealOfTheWeek";
 import OrderButton from "./../../Component/OrderButton/OrderButton";
 import OwlStage from "./../../Component/Owlstage/OwlStage";
 import ProductCard from "./../../Component/LatestProd/ProductCard";
 import { useEffect, useRef, useState } from "react";
 import axios from "axios";
+import Over from "../../Component/Over/Over";
+import FeatureCard from "../../Component/FeaturCard/FeatureCard";
+import Test from "./../../Component/Test/Test";
+import FoodBanner from "../../Component/FoodBanner/FoodBanner";
+import ClientsSays from "../../Component/ClientsSays/ClientsSays";
 
 export default function Home() {
   const [product, setproduct] = useState([]);
@@ -356,6 +362,11 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <Over />
+      <FeatureCard />
+      <DealOfTheWeek />
+      <FoodBanner />
+      <ClientsSays />
     </div>
   );
 }

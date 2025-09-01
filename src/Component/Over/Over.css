@@ -1,0 +1,12 @@
+@import "../../App.css";
+
+.Over {
+  h1 {
+    font-size: 60px;
+    letter-spacing: 0.3px;
+    color: var(--Second-color);
+    margin: 0 0 18px;
+    font-weight: 400;
+    font-family: var(--main-font-family);
+  }
+}

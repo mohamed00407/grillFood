@@ -1,0 +1,21 @@
+/* @import "src\App.css"; */
+
+.content {
+  h2 {
+    font-family: var(--main-font-family);
+    color: var(--Second-color);
+  }
+  .one {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 400;
+  }
+  .two {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0.7px;
+    font-family: var(--second-font-family);
+    color: var(--Second-color);
+  }
+}

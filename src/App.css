@@ -4,6 +4,9 @@
   --Main-Color: #fc4d26;
   --gradient-main-no-2: #000000;
   --Second-color: #fec600;
+
+  --main-font-family: Playball, cursive;
+  --second-font-family: Kanit, sans-serif;
 }
 ul {
   list-style: none;
