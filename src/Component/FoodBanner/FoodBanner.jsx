@@ -4,7 +4,7 @@ const banners = [
   {
     title: "DOUBLE BEEF Hot Dogs!",
     subtitle: "Smerican Food",
-    image: "/public/images/cms-banner-2.webp",
+    image: "/images/cms-banner-2.webp",
     buttonText: "ORDER NOW",
     freeDelivery: true,
     bgColor: "#e3242b",
@@ -13,7 +13,7 @@ const banners = [
   {
     title: "NEW ONINON Burgure!",
     subtitle: "Delicious",
-    image: "/public/images/cms-banner-3.webp",
+    image: "/images/cms-banner-3.webp",
     buttonText: "ORDER NOW",
     discount: "50% OFF",
     bgColor: "#1a1a1a",
@@ -24,7 +24,7 @@ const banners = [
 export default function FoodBanner() {
   return (
     <div className="flex align-middle justify-center bg-stone-100">
-      <div className="container items-center p-4 sm:p-8 md:p-12  grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  ">
+      <div className="container p-4 sm:p-8 md:p-12  grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  ">
         {banners.map((banner, index) => {
           return (
             <div className="relative w-full h-full" key={index}>

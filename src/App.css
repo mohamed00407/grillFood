@@ -4,13 +4,21 @@
   --Main-Color: #fc4d26;
   --gradient-main-no-2: #000000;
   --Second-color: #fec600;
+  --third-color: #ffffff;
+  --bg-color : #FAF5F0
 
   --main-font-family: Playball, cursive;
   --second-font-family: Kanit, sans-serif;
+  --third-font-family: Montserrat, sans-serif;
 }
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+body{background-color: #f5f5f4;}
+
+.container{
+  max-width: 1300px;
 }

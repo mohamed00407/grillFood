@@ -23,27 +23,6 @@
     "newPrice": {
       "type": "integer"
     },
-    "image": {
-      "type": "media",
-      "conditions": {
-        "visible": {
-          "==": [
-            {
-              "var": ""
-            },
-            ""
-          ]
-        }
-      },
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "discount": {
       "type": "decimal"
     },
@@ -55,6 +34,55 @@
     },
     "discounted": {
       "type": "boolean"
+    },
+    "remainingTime": {
+      "type": "boolean"
+    },
+    "rationgfill": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "in_stoct": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "burger",
+        "chicken",
+        "colddrinks",
+        "mexican",
+        "pizza"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "s",
+        "m",
+        "l",
+        "r"
+      ]
+    },
+    "brand": {
+      "type": "enumeration",
+      "enum": [
+        "burgerking",
+        "kfc",
+        "donion's",
+        "mcdonald's",
+        "pizzahut",
+        "tacobell"
+      ]
     }
   }
 }

@@ -1,0 +1,50 @@
+@import url("src\App.css");
+
+.text {
+  h2 {
+    color: var(--Second-color);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: var(--main-font-family);
+  }
+  p:nth-child(2) {
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    font-family: var(--second-font-family);
+    color: var(--third-color);
+  }
+  p:nth-child(3) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-size: 1.5rem;
+    font-family: var(--second-font-family);
+    color: var(--Second-color);
+  }
+  p:nth-child(4) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* line-height: 46px; */
+    letter-spacing: 0.7px;
+    font-family: var(--main-font-family);
+    color: var(--third-color);
+  }
+}
+
+.card:nth-child(3) h2 {
+  color: var(--Main-Color);
+}
+.card:nth-child(3) p:nth-child(2) {
+  color: black;
+}
+.card:nth-child(3) p:nth-child(3) {
+  color: var(--Main-Color);
+}
+.card:nth-child(3) p:nth-child(4) {
+  color: black;
+}
+
+.card:nth-child(3).btn {
+  background-color: var(--Main-Color);
+}

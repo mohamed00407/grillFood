@@ -1,9 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-// You will need to install react-icons for the star icons:
-// npm install react-icons
 import { BsFillStarFill } from "react-icons/bs";
 import { useState } from "react";
 
@@ -64,7 +61,7 @@ const TestimonialCard = ({ testimonial }) => {
   );
 };
 export default function ClientsSays() {
-  const [testId, setTestId] = useState(0);
+  // const [testId, setTestId] = useState(0);
   const settings = {
     dots: true, // This enables the dots
     infinite: true,
@@ -82,7 +79,7 @@ export default function ClientsSays() {
     customPaging: (i) => (
       <div
         className={`w-3 h-3 rounded-full cursor-pointer transition-colors duration-300 ${
-          i === setTestId(testimonials.id) ? "bg-red-400" : "bg-gray-300"
+          i === 0 ? "bg-red-400" : "bg-gray-300"
         }`}
       ></div>
     ),

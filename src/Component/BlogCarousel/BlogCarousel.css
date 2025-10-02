@@ -1,0 +1,22 @@
+/* Custom CSS for the carousel arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Hide default slick arrows */
+.slick-prev::before,
+.slick-next::before {
+  content: none;
+}

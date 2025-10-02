@@ -1,0 +1,7 @@
+.dealCard:hover .discount {
+  display: none;
+}
+
+.dealCard:hover .wish {
+  display: flex;
+}
